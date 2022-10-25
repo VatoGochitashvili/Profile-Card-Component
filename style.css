@@ -1,0 +1,141 @@
+/* elements */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19a1ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* classes */
+
+.bckrnd {
+  position: absolute;
+  z-index: -1;
+}
+
+.up {
+  position: absolute;
+  width: calc(100vw / 1.47) px;
+  height: calc(100vh / 0.73) px;
+  left: -100px;
+  top: -300px;
+}
+
+.down {
+  position: absolute;
+  width: calc(100vw / 1.47) px;
+  height: calc(100vh / 0.73) px;
+  right: -100px;
+  top: 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 350px;
+  height: 374px;
+  border-radius: 15px;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  overflow: hidden;
+}
+
+/* ids */
+
+#imgtop {
+  width: 350px;
+  height: 140pxs;
+}
+
+#victor,
+#profile {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+#profile {
+  padding: 5px;
+  background-color: white;
+  position: absolute;
+  left: calc(50% - 96px / 2);
+  top: calc(50% - 96px / 2 - 47px);
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+}
+
+#person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 145px;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+#age {
+  color: #6b7082;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+#location {
+  font-size: 0.8rem;
+  color: #6b7082;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+#stats {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8rem;
+  justify-content: space-around;
+  border-top: 1px solid #e8e9ec;
+  text-align: center;
+  padding-top: 25px;
+  margin-bottom: 180px;
+}
+
+#stats h2 {
+  color: #2e3349;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+#stats p {
+  color: #6b7082;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+}
+
+/* end of the code */
